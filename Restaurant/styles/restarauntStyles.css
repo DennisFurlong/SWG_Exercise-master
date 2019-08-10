@@ -19,6 +19,7 @@ header, footer{
     background-color: #d8c3a5;
     color: Maroon;
     text-align: center;
+    clear: both;
 }
 
 header {

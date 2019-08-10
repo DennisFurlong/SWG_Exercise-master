@@ -1,7 +1,7 @@
 <!--
     Name: Dennis Furlong
     Date Created: 07/31/2019 
-    Most recent revision: 08/1/2019
+    Most recent revision: 08/10/2019
 -->
 
 <!DOCTYPE html> 
@@ -13,8 +13,8 @@
     </head> 
 
     <style>
-        .firstname {
-            font-weight: bold;
+        body {
+            background-color: lightblue;
         }
     </style>
 
@@ -34,23 +34,23 @@
         </nav>
 		<form action="submit.html" method="POST" style="text-align: center">
             <!-- First Name label and textbox -->
-			<label for="firstName">Name:</label><br />
-			    <input type="text" id="firstName" name="firstName"><br />
+			<label for="Name" style="font-weight: bold">Name:</label><br />
+			    <input type="text" id="Name" name="Name"><br />
             <!-- Last Name label and textbox -->
-			<label for="email">Email:</label><br />
+			<label for="email" style="font-weight: bold">Email:</label><br />
 			    <input type="text" id="email" name="email"><br />
             <!-- Phone Number label and textbox -->
-			<label for="phone">Phone:</label><br />
+			<label for="phone" style="font-weight: bold">Phone:</label><br />
 			    <input type="text"id="phone" name="phone"><br />
             <!-- Dropdown menu -->
-			<label for="contact">Reason for inquiry:</label><br />
+            <label for="contact">Reason for inquiry:</label><br />
 			<select id="contact" name="contact">
 				<option value="default" selected>Catering</option>
 				<option value="morning">Private Party</option>
 				<option value="afternoon">Feedback</option>
 				<option value="evening">Other</option>
             </select>
-
+            <br/>
             <!-- Textarea -->
 			<label for="info">Additional Information</label><br />
             <textarea id="info"></textarea><br />

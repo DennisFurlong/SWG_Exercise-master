@@ -1,7 +1,7 @@
 <!--
     Name: Dennis Furlong 
     Date Created: 07/31/2019 
-    Most recent revision: 08/1/2019
+    Most recent revision: 08/10/2019
 -->
 
 <!DOCTYPE html> 
@@ -21,8 +21,13 @@
             background-color: lightblue
         }
         table{
-            text-align: center"
+            float:left;
         }
+        td {
+            font-size: 12px;
+            text-align: center;
+        }
+
     </style>
 
 
@@ -33,9 +38,7 @@
             <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
                 
         </header>
-            <!--
-                Make sure the names of the items are larger than the descriptions
-            -->
+           
 
             <nav>
                     <p><a href="index.html">Home</a>
@@ -45,28 +48,39 @@
                     <hr/>
             </nav>
         <table>
+            <tbody>
+                
+            </tbody>
+        </table>
+
+         <!--
+                Make sure the names of the items are larger than the descriptions
+            -->
+
+        <div>
+        <table>
                 <caption><strong>Burger and Fries!</strong></caption>
-                <tr>
+
                     <td>An American Classic!</td>
                     <tr><td>Your choice = with or without cheese.</td></tr>
                     <tr><td>Pickle, onion, tomato and lettuce</td></tr>
                     <tr><td>Served with our famous thick cut french fries</td></tr>
                     <tr><td>$7.95</td></tr>
-                </tr>
-        </table>
-        <br/>
 
-        <table style="float: left">
+        </table>
+
+
+        <table>
                 <caption><strong>Hot Dog and Chips</strong></caption>
-                <tr>
+
                     <td>A Summer Classic!</td>
                     <tr><td>Your choice = white or wheat bun.</td></tr>
                     <tr><td>Relish, mustard, and ketchup</td></tr>
                     <tr><td>Served with our house-made chips</td></tr>
                     <tr><td>$7.95</td></tr>
-                </tr>
+
         </table>
-        <br/>
+
 
         <table>
                 <caption><strong>Italian Sausage and Peppers</strong></caption>
@@ -77,7 +91,7 @@
                     <tr><td>$10.95</td></tr>
                 </tr>
         </table>
-        <br/>
+
 
         <table>
                 <caption><strong>Tenderloin Sandwich and Chips</strong></caption>
@@ -89,7 +103,7 @@
                     <tr><td>$8.95</td></tr>
                 </tr>
         </table>
-        <br/>
+
 
         <table>
                 <caption><strong>House Salad</strong></caption>
@@ -102,7 +116,7 @@
                     <tr><td>$6.95</td></tr>
                 </tr>
         </table>
-        <br/>
+
 
         <table>
                 <caption><strong>Brisket Sandwich and Fries</strong></caption>
@@ -115,39 +129,44 @@
                     <tr><td>$7.95</td></tr>
                 </tr>
         </table>
-        <br/>
 
-        <table id="Beverages">
-                <caption><strong>Beverages</strong></caption>
+        <br/>
+    </div>
+
+    <div class="Beverages">
+        <table style="clear:both; text-align:center">
+            <tbody>
+                <tr colspan="2">
+                    <td>
+                        <p style="font-size: 16px"><strong>Beverages</strong></p>
+                    </td>
+                </tr>
                 <tr>
                     <td>Root Beer</td>
-                    <td>        </td>
                     <td>$3.00</td>
                 </tr>
                 <tr>
-                    <td>Bottled Water</td>
-                    <td>        </td>
+                    <td >Bottled Water</td>
                     <td>$1.25</td>
                 </tr>
                 <tr>
-                    <td>Lemonade</td>
-                    <td>  </td>
+                    <td >Lemonade</td>
                     <td>$2.00</td>
                 </tr>
                 <tr>
-                    <td>Sweet/Unsweet Tea</td>
-                    <td>  </td>
+                    <td >Sweet/Unsweet Tea</td>
                     <td>$2.00</td>
                 </tr>
-            </table>
-        <br/>
+            </tbody>
+        </table>
+    </div>
 
         <footer>
                 <hr/>
                 <p>324 Food Blvd., Louisville, Kentucky, 40223</p>
                 <p>502-777-7777</p>
                 <p>&copy; 2020 Furlong's. All rights reserved.</p>
-            </footer>
+        </footer>
 
         <!--
             Add menu for beverages
