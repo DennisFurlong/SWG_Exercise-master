@@ -9,19 +9,30 @@
 <html lang="en"> 
     <head> 
         <title>Home Page</title>	
+        <link href="styles/restarauntStyles.css" rel="stylesheet" type="text/css"/>
     </head> 
+
+    <style>
+        .firstname {
+            font-weight: bold;
+        }
+    </style>
+
     <body>
         <header>
             <h1>Furlong's</h1>
             <hr/>
             <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-                <nav>
-                    <p><a href="index.html">Home   </a><a href="Menu.html">Menu   </a> <a href="Contact.html">Contact Us </a></p>
-                    <hr/>
-                </nav>
+                
         </header>
-
-		<form action="submit.html" method="POST">
+        <nav>
+                <p><a href="index.html">Home</a>
+                    <a href="Menu.html">Menu</a> 
+                    <a href="Contact.html">Contact Us</a></p>
+                    <div class="clear-float"></div>
+                    <hr/>
+        </nav>
+		<form action="submit.html" method="POST" style="text-align: center">
             <!-- First Name label and textbox -->
 			<label for="firstName">Name:</label><br />
 			    <input type="text" id="firstName" name="firstName"><br />

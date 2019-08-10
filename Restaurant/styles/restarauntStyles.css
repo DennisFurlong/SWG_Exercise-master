@@ -1,0 +1,51 @@
+/* 
+To Do:
+Make header and footer styles here, must show up the same on each page.
+
+Menu and contact form must be inline on the pages themselves.
+
+Links should not be underlined
+Links should not be default color when visited
+Hovering should make the links bold
+
+*/ 
+
+body{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header, footer{
+    background-color: #d8c3a5;
+    color: Maroon;
+    text-align: center;
+}
+
+header {
+    font: Impact;
+    font-size: 30px;
+}
+
+nav {
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+
+nav a:visited{
+    color: orangered;
+}
+
+nav a{
+    background-color: rgb(21, 199, 101);
+    color: rgb(22, 104, 180);
+    text-decoration: none;
+    padding: 4px;
+    margin: 4px;
+}
+
+nav a.hover {
+    font-weight: bold;
+}
+

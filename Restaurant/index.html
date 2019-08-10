@@ -2,6 +2,10 @@
     Name: Dennis Furlong 
     Date Created: 07/31/2019 
     Most recent revision: 08/1/2019
+
+    To Do:
+
+    - 
 -->
 
 <!DOCTYPE html> 
@@ -9,20 +13,35 @@
 <html lang="en"> 
     <head> 
         <title>Home Page</title>	
+        <link href="styles/restarauntStyles.css" rel="stylesheet" type="text/css"/>
     </head> 
     <body>
         <header>
+            <!--
+                Style restaraunt name woth a font, inline
+
+                Make sure the background of the body is something other than white
+            -->
             <h1>Furlong's</h1>
             <hr/>
             <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-                <nav>
-                    <p><a href="index.html">Home   </a><a href="Menu.html">Menu   </a> <a href="Contact.html">Contact Us </a></p>
-                    <hr/>
-                </nav>
+                
         </header>
 
-        <img src="rest.jpg" alt="Our Restaurant"/>
-        <p>Furlong's is a family owned restaurant focused on healthy sandwiches and delicious bites.</p>
+        <nav>
+                <p><a href="index.html">Home</a>
+                    <a href="Menu.html">Menu</a> 
+                    <a href="Contact.html">Contact Us</a></p>
+                    <div class="clear-float"></div>
+                    <hr/>
+        </nav>
+        
+        <!--
+            Make positioning style inline
+                 -->
+
+        <img src="rest.jpg" alt="Our Restaurant" style="margin-left: auto; margin-right: auto; display: block"/>
+        <p style="font-size: 28px; text-align: center;">Furlong's is a family owned restaurant focused on healthy sandwiches and delicious bites.</p>
 
         <footer>
             <hr/>

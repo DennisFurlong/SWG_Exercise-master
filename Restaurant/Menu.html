@@ -7,20 +7,43 @@
 <!DOCTYPE html> 
 
 <html lang="en"> 
+    <link href="styles/restarauntStyles.css" rel="stylesheet" type="text/css"/>
     <head> 
         <title>Home Page</title>	
     </head> 
+
+    <!--
+        Make sure the background isn't white.
+    -->
+
+    <style>
+        body{
+            background-color: lightblue
+        }
+        table{
+            text-align: center"
+        }
+    </style>
+
+
     <body>
         <header>
             <h1>Furlong's</h1>
             <hr/>
             <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-                <nav>
-                    <p><a href="index.html">Home   </a><a href="Menu.html">Menu   </a> <a href="Contact.html">Contact Us  </a></p>
-                    <hr/>
-                </nav>
+                
         </header>
+            <!--
+                Make sure the names of the items are larger than the descriptions
+            -->
 
+            <nav>
+                    <p><a href="index.html">Home</a>
+                    <a href="Menu.html">Menu</a> 
+                    <a href="Contact.html">Contact Us</a></p>
+                    <div class="clear-float"></div>
+                    <hr/>
+            </nav>
         <table>
                 <caption><strong>Burger and Fries!</strong></caption>
                 <tr>
@@ -33,7 +56,7 @@
         </table>
         <br/>
 
-        <table>
+        <table style="float: left">
                 <caption><strong>Hot Dog and Chips</strong></caption>
                 <tr>
                     <td>A Summer Classic!</td>
@@ -82,7 +105,7 @@
         <br/>
 
         <table>
-                <caption><strong>Brisket Sandwich an dFries</strong></caption>
+                <caption><strong>Brisket Sandwich and Fries</strong></caption>
                 <tr>
                     <td>A Taste of Texas!</td>
                     <tr><td>Smoked Brisket on thick-cut</td></tr>
@@ -94,6 +117,30 @@
         </table>
         <br/>
 
+        <table id="Beverages">
+                <caption><strong>Beverages</strong></caption>
+                <tr>
+                    <td>Root Beer</td>
+                    <td>        </td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td>Bottled Water</td>
+                    <td>        </td>
+                    <td>$1.25</td>
+                </tr>
+                <tr>
+                    <td>Lemonade</td>
+                    <td>  </td>
+                    <td>$2.00</td>
+                </tr>
+                <tr>
+                    <td>Sweet/Unsweet Tea</td>
+                    <td>  </td>
+                    <td>$2.00</td>
+                </tr>
+            </table>
+        <br/>
 
         <footer>
                 <hr/>
@@ -101,5 +148,9 @@
                 <p>502-777-7777</p>
                 <p>&copy; 2020 Furlong's. All rights reserved.</p>
             </footer>
+
+        <!--
+            Add menu for beverages
+        -->
     </body> 
 </html>
