@@ -7,61 +7,50 @@
 <!DOCTYPE html> 
 
 <html lang="en"> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
     <link href="styles/restarauntStyles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <head> 
         <title>Home Page</title>	
     </head> 
 
-    <!--
-        Make sure the background isn't white.
-    -->
-
     <style>
         body{
-            background-color: lightblue
+            background-color: lightblue;
         }
         table{
             float:left;
+            text-align: center;
         }
         td {
             font-size: 12px;
-            text-align: center;
         }
-
     </style>
 
 
     <body>
+        
         <header>
             <h1>Furlong's</h1>
             <hr/>
-            <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-                
+
         </header>
            
-
             <nav>
-                    <p><a href="index.html">Home</a>
-                    <a href="Menu.html">Menu</a> 
-                    <a href="Contact.html">Contact Us</a></p>
-                    <div class="clear-float"></div>
-                    <hr/>
+                <p>
+                    <a button class="btn" href="index.html"><i class="fa fa-home"></i></button>
+                    <a class="btn badge-pill" href="Menu.html">Menu</a> 
+                    <a class="btn badge-pill" href="Contact.html">Contact Us</a>
+                </p>
+             <hr/>
             </nav>
+
         <table>
-            <tbody>
-                
-            </tbody>
-        </table>
+                <thead><strong>Burger and Fries!</strong></thead>
 
-         <!--
-                Make sure the names of the items are larger than the descriptions
-            -->
-
-        <div>
-        <table>
-                <caption><strong>Burger and Fries!</strong></caption>
-
-                    <td>An American Classic!</td>
+                    <tr><td>An American Classic!</td></tr>
                     <tr><td>Your choice = with or without cheese.</td></tr>
                     <tr><td>Pickle, onion, tomato and lettuce</td></tr>
                     <tr><td>Served with our famous thick cut french fries</td></tr>
@@ -71,7 +60,7 @@
 
 
         <table>
-                <caption><strong>Hot Dog and Chips</strong></caption>
+                <tr><strong>Hot Dog and Chips</strong></tr>
 
                     <td>A Summer Classic!</td>
                     <tr><td>Your choice = white or wheat bun.</td></tr>
@@ -83,7 +72,7 @@
 
 
         <table>
-                <caption><strong>Italian Sausage and Peppers</strong></caption>
+                <strong>Italian Sausage and Peppers</strong>
                 <tr>
                     <td>An All Time Favorite!</td>
                     <tr><td>Your choice = mild or spicy cole slaw</td></tr>
@@ -94,7 +83,7 @@
 
 
         <table>
-                <caption><strong>Tenderloin Sandwich and Chips</strong></caption>
+                <strong>Tenderloin Sandwich and Chips</strong>
                 <tr>
                     <td>Really Hits the Spot!</td>
                     <tr><td>Plain or Sesame Seed Bun</td></tr>
@@ -106,7 +95,7 @@
 
 
         <table>
-                <caption><strong>House Salad</strong></caption>
+                <strong>House Salad</strong>
                 <tr>
                     <td>On the Lighter Side</td>
                     <tr><td>Your choice = with or without cheese.</td></tr>
@@ -119,7 +108,7 @@
 
 
         <table>
-                <caption><strong>Brisket Sandwich and Fries</strong></caption>
+                <thead><strong>Brisket Sandwich and Fries</strong></thead>
                 <tr>
                     <td>A Taste of Texas!</td>
                     <tr><td>Smoked Brisket on thick-cut</td></tr>
@@ -130,13 +119,11 @@
                 </tr>
         </table>
 
-        <br/>
-    </div>
 
     <div class="Beverages">
         <table style="clear:both; text-align:center">
-            <tbody>
-                <tr colspan="2">
+            <tbody style="border:chartreuse">
+                <tr colspan="4">
                     <td>
                         <p style="font-size: 16px"><strong>Beverages</strong></p>
                     </td>
@@ -160,16 +147,12 @@
             </tbody>
         </table>
     </div>
-
+    
         <footer>
                 <hr/>
                 <p>324 Food Blvd., Louisville, Kentucky, 40223</p>
                 <p>502-777-7777</p>
                 <p>&copy; 2020 Furlong's. All rights reserved.</p>
         </footer>
-
-        <!--
-            Add menu for beverages
-        -->
     </body> 
 </html>
