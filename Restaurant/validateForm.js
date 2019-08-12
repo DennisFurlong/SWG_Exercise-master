@@ -14,6 +14,7 @@ function resetForm(){
     document.forms["contactUs"]["name"].focus();
 }
 
+
 function validateItems() {
     clearErrors();
 
@@ -21,7 +22,9 @@ function validateItems() {
     var email = document.forms["contactUs"]["email"].value;
     var phone = document.forms["contactUs"]["phone"].value;
 
-    if (name == "") {
+
+
+    if (name == "" || name(isNaN)) {
         alert("Please fill in your Name.");
         document.forms["contactUs"]["name"].parentElement.className = "form-group has-error";
         document.forms["contactUs"]["name"].focus();
@@ -40,7 +43,7 @@ function validateItems() {
         document.forms["contactUs"]["phone"].parentElement.className ="form-group has-error";
         document.forms["contactUs"]["email"].focus();
    }
-   
+
    else{
        alert("Information Submitted!");
    }

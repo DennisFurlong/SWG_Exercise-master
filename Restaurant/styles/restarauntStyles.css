@@ -19,15 +19,16 @@ header {
 
 nav a.hover {
     font-weight: bold;
+    background-color: white;
 }
 
 nav a:visited{
-    color: orangered;
+    color: rgb(117, 96, 71);
 }
 
 nav a{
-    background-color: rgb(21, 199, 101);
-    color: rgb(22, 104, 180);
+    background-color: cornflowerblue;
+    color: rgb(104, 19, 153);
     text-decoration: none;
     padding: 4px;
     margin: 4px;
@@ -41,4 +42,6 @@ nav {
 
 .beverages{
     border: black;
+    background-color: beige;
+
 }
