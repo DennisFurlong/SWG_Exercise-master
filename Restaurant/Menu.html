@@ -17,135 +17,116 @@
     </head> 
 
     <style>
-        body{
-            background-color: lightblue;
-        }
         table{
             float:left;
             text-align: center;
         }
         td {
-            font-size: 12px;
+            font-size: 16px;
+        }
+
+        ul{
+            border:crimson;
         }
     </style>
 
 
-    <body>
-        
+    <body style="background-color: rgb(130, 139, 216)">
         <header>
             <h1>Furlong's</h1>
             <hr/>
-
         </header>
-           
             <nav>
                 <p>
                     <a button class="btn" href="index.html"><i class="fa fa-home"></i></button>
                     <a class="btn badge-pill" href="Menu.html">Menu</a> 
                     <a class="btn badge-pill" href="Contact.html">Contact Us</a>
+        
                 </p>
              <hr/>
             </nav>
 
-        <table>
-                <strong>Burger and Fries!</strong>
-                    <tr><td>An American Classic!</td></tr>
-                    <tr><td>Your choice = with or without cheese.</td></tr>
-                    <tr><td>Pickle, onion, tomato and lettuce</td></tr>
-                    <tr><td>Served with our famous thick cut french fries</td></tr>
-                    <tr><td>$7.95</td></tr>
+        <div class="container1">
+            <ul class="list-inline">
 
-        </table>
+                <li class="list-inline-item" style="text-align: center">
+                    <ul style="font-size: 22px"><strong>Burger and Fries!</strong></ul>
+                    <ul>Your choice = with or without cheese.</ul>
+                    <ul>Pickle, onion, tomato and lettuce.</ul>
+                    <ul>Served with our famous thick cut french fries</ul>
+                    <ul>$7.95</ul>
+                </li>
+            
+                <li class="list-inline-item" style="text-align: center">
+                    <ul style="font-size: 22px"><strong>Hot Dog and Chips</strong></ul>
+                    <ul>A Summer Classic!</ul>
+                    <ul>Your choice = white or wheat bun.</ul>
+                    <ul>Relish, mustard, and ketchup</ul>
+                    <ul>Served with our house-made chips</ul>
+                    <ul>$7.95</ul>
+                </li>
 
+                <li class="list-inline-item" style="text-align: center">
+                    <ul style="font-size: 22px"><strong>Italian Sausage and Peppers</strong></ul>
+                    <ul>An All Time Favorite!</ul>
+                    <ul>Your choice = mild or spicy cole slaw</ul>
+                    <ul>Served with garlic mashers</ul>
+                    <ul>$10.95</ul>
+                </li>
 
-        <table>
-                <tr><strong>Hot Dog and Chips</strong></tr>
-                    <td>A Summer Classic!</td>
-                    <tr><td>Your choice = white or wheat bun.</td></tr>
-                    <tr><td>Relish, mustard, and ketchup</td></tr>
-                    <tr><td>Served with our house-made chips</td></tr>
-                    <tr><td>$7.95</td></tr>
+                <li class="list-inline-item" style="text-align: center">
+                    <ul style="font-size: 22px"><strong>Tenderloin Sandwich and Chips</strong></ul>
+                    <ul>Really Hits the Spot!</ul>
+                    <ul>Plain or Sesame Seed Bun</ul>
+                    <ul>Pickle, onion, tomato and lettuce</ul>
+                    <ul>Served with house-made chips</ul>
+                    <ul>$8.95</ul>
+                </li>
+                <li class="list-inline-item" style="text-align: center">
+                    <ul style="font-size: 22px"><strong>House Salad</strong></ul>
+                    <ul>On the Lighter Side</ul>
+                    <ul>Your choice = with or without cheese.</ul>
+                    <ul>Iceberg lettuce, tomatoes, peppers</ul>
+                    <ul>Thousand Island or Ranch</ul>
+                    <ul>Served with a dinner roll</ul>
+                    <ul>$6.95</ul>
+                </li>
 
-        </table>
-
-
-        <table>
-                <strong>Italian Sausage and Peppers</strong>
+                <li class="list-inline-item" style="text-align: center">
+                    <ul style="font-size: 22px"><strong>Brisket Sandwich and Fries</strong></ul>
+                    <ul>A Taste of Texas!</ul>
+                    <ul>Smoked Brisket on thick-cut</ul>
+                    <ul>Texas Toast, Cole slaw</ul>
+                    <ul>Served with our famous thick cut french fries</ul>
+                    <ul>$7.95</ul>
+                 </li>
+            </ul>
+            
+        <table class="table table-striped">
+            <thead>
+                <th scope="col" style="text-align: center">Beverages</th>
+                <td style="font-size: 20px"><strong>Price</strong></td>
+            </thead>
+            <tbody>
                 <tr>
-                    <td>An All Time Favorite!</td>
-                    <tr><td>Your choice = mild or spicy cole slaw</td></tr>
-                    <tr><td>Served with garlic mashers</td></tr>
-                    <tr><td>$10.95</td></tr>
-                </tr>
-        </table>
-
-
-        <table>
-                <strong>Tenderloin Sandwich and Chips</strong>
-                <tr>
-                    <td>Really Hits the Spot!</td>
-                    <tr><td>Plain or Sesame Seed Bun</td></tr>
-                    <tr><td>Pickle, onion, tomato and lettuce</td></tr>
-                    <tr><td>Served with house-made chips</td></tr>
-                    <tr><td>$8.95</td></tr>
-                </tr>
-        </table>
-
-
-        <table>
-                <strong>House Salad</strong>
-                <tr>
-                    <td>On the Lighter Side</td>
-                    <tr><td>Your choice = with or without cheese.</td></tr>
-                    <tr><td>Iceberg lettuce, tomatoes, peppers</td></tr>
-                    <tr><td>Thousand Island or Ranch</td></tr>
-                    <tr><td>Served with a dinner roll</td></tr>
-                    <tr><td>$6.95</td></tr>
-                </tr>
-        </table>
-
-
-        <table>
-                <thead><strong>Brisket Sandwich and Fries</strong></thead>
-                <tr>
-                    <td>A Taste of Texas!</td>
-                    <tr><td>Smoked Brisket on thick-cut</td></tr>
-                    <tr><td>Texas Toast</td></tr>
-                    <tr><td>Cole slaw</td></tr>
-                    <tr><td>Served with our famous thick cut french fries</td></tr>
-                    <tr><td>$7.95</td></tr>
-                </tr>
-        </table>
-
-<!-- make rows striped, colored gray and navy blue-->
-    <div class="Beverages">
-        <table style="clear:both; text-align:center">
-            <tbody style="border:chartreuse">
-                <tr colspan="4">
-                    <td>
-                        <p style="font-size: 16px"><strong>Beverages</strong></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Root Beer</td>
+                    <th scope="row">Iced Root Beer</th>
                     <td>$3.00</td>
                 </tr>
                 <tr>
-                    <td >Bottled Water</td>
+                    <th scope="row">Water</th>
                     <td>$1.25</td>
                 </tr>
                 <tr>
-                    <td >Lemonade</td>
-                    <td>$2.00</td>
+                    <th scope="row">Iced Lemonade</th>
+                    <td>$1.50</td>
                 </tr>
                 <tr>
-                    <td >Sweet/Unsweet Tea</td>
-                    <td>$2.00</td>
+                    <th scope="row">Iced Coke</th>
+                    <td>$3.00</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    
         <footer>
                 <hr/>
                 <p>324 Food Blvd., Louisville, Kentucky, 40223</p>

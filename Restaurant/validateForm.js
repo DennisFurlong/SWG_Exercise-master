@@ -23,7 +23,6 @@ function validateItems() {
     var phone = document.forms["contactUs"]["phone"].value;
 
 
-
     if (name == "" || name(isNaN)) {
         alert("Please fill in your Name.");
         document.forms["contactUs"]["name"].parentElement.className = "form-group has-error";
@@ -31,14 +30,14 @@ function validateItems() {
         return false;
     }
 
-   if (email == "") {
+   else if (email == "") {
        alert("Email must be filled in with a valid Email address.");
        document.forms["contactUs"]["email"].parentElement.className = "form-group has-error";
        document.forms["contactUs"]["email"].focus();
        return false;
    }
 
-   if(phone == "" || isNaN(phone)){
+   else if(phone == "" || isNaN(phone)){
         alert("Phone must be a valid Phone Number.");
         document.forms["contactUs"]["phone"].parentElement.className ="form-group has-error";
         document.forms["contactUs"]["email"].focus();
